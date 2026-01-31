@@ -1,0 +1,9 @@
+import Mathlib
+
+
+variable {α β γ δ ι κ D C R S : Type*}
+variable [DecidableEq α] [DecidableEq β]
+
+/-! ### Order / lattice related lemmas -/
+lemma ne_of_lt_of_le [Preorder α] {a b c : α} (h₁ : a < b) (h₂ : b ≤ c) (h₃ : c ≤ a) : b ≠ c := by
+  sorry

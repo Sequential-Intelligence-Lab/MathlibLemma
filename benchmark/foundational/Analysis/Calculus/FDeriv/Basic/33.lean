@@ -1,0 +1,15 @@
+import Mathlib
+
+theorem HasFDerivAtFilter.comp'
+    {𝕜 : Type*} [NontriviallyNormedField 𝕜]
+    {E E' F : Type*}
+    [NormedAddCommGroup E] [NormedSpace 𝕜 E]
+    [NormedAddCommGroup E'] [NormedSpace 𝕜 E']
+    [NormedAddCommGroup F] [NormedSpace 𝕜 F]
+    {f : E' → F} {g : E → E'} {x : E}
+    {f' : E' →L[𝕜] F} {g' : E →L[𝕜] E'}
+    {L : Filter E}
+    (hf : HasFDerivAtFilter f f' (g x) (Filter.map g L))
+    (hg : HasFDerivAtFilter g g' x L) :
+    HasFDerivAtFilter (fun y => f (g y)) (f'.comp g') x L := by
+  sorry

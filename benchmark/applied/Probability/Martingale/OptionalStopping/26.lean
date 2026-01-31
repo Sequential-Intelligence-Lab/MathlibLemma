@@ -1,0 +1,20 @@
+import Mathlib
+
+/-
+The following are brainstormed lemma statements that might be useful in Mathlib,
+inspired by the optional stopping theorem file and its interactions with other areas.
+They are intentionally left with `sorry` proofs.
+-/
+
+-- 29. Supermartingale property under truncation in time
+open MeasureTheory
+
+theorem MeasureTheory.Supermartingale.truncate
+    {Ω : Type*} {m0 : MeasurableSpace Ω}
+    {μ : Measure Ω}
+    {𝒢 : Filtration ℕ m0}
+    {f : ℕ → Ω → ℝ}
+    (hf : Supermartingale f 𝒢 μ)
+    (N : ℕ) :
+    Supermartingale (fun n ω => f (min n N) ω) 𝒢 μ := by
+  sorry
