@@ -16,11 +16,11 @@ The repository is organized into two main components:
 
 Each component is categorized into three domains based on the complexity and abstraction level of the mathematics:
 
-| Directory |  Description |
-| :--- | :--- |
-| `foundational/` |  Basic logic, sets, and elementary algebra. |
-| `applied/` |  Concrete analysis, convex analysis, and probability. |
-| `abstract/` |  Topology, category theory, and advanced algebra. |
+| Directory | Description |
+| :-- | :-- |
+| `foundational/` | This domain covers the “bread and butter” of formalized mathematics: real analysis, discrete structures (e.g., sets, matrices), basic probability, and others. |
+| `applied/` | This domain includes domains such as advanced probability (martingales), information theory, and convex analysis. |
+| `abstract/` | This domain spans abstract fields including category theory, algebraic topology, and differential geometry. |
 
 ## 🚀 Usage
 
@@ -50,7 +50,7 @@ A key contribution of this project is the discovery of missing lemmas that have 
 
 * [Mathlib4 PR #32167](https://github.com/leanprover-community/mathlib4/pull/32167)
   - Adds `Kernel.restrict_const`: restricting a constant kernel to a measurable set commutes with restricting the underlying measure.
-  - Statement: `(Kernel.const α μ).restrict hs = Kernel.const α (μ.restrict s)`.
+  <!-- - Statement: `(Kernel.const α μ).restrict hs = Kernel.const α (μ.restrict s)`. -->
 
 * [Mathlib4 PR #31985](https://github.com/leanprover-community/mathlib4/pull/31985)
   - Adds `centralMoment_congr_ae`: central moments agree for a.e.-equal random variables.
