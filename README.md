@@ -2,8 +2,9 @@
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Official repository for the paper 
-[MathlibLemma: Folklore Lemma Generation and Benchmark for Formal Mathematics](https://arxiv.org/abs/2602.02561).
+Official repository for the paper  
+[MathlibLemma: Folklore Lemma Generation and Benchmark for Formal Mathematics](https://arxiv.org/abs/2602.02561)  
+Xinyu Liu, Zixuan Xie, Amir Moeini, Claire Chen, Shuze Daniel Liu, Yu Meng, Aidong Zhang, Shangtong Zhang
 
 This repository contains **MathlibLemma**, a dataset of synthesized "folklore" lemmas that bridge the gap between high-level intuition and formal verification in Lean 4. It serves both as a library of verified theorems and a benchmark for evaluating the formal reasoning capabilities of LLMs.
 
