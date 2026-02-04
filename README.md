@@ -1,7 +1,10 @@
 # MathlibLemma: Folklore Lemma Generation and Benchmark
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Lean Version](https://img.shields.io/badge/Lean-4-orange)](https://leanprover.github.io/)
+
+[![ArXiv](https://img.shields.io/badge/ArXiv-2602.02561-B31B1B.svg)](https://arxiv.org/abs/2602.02561)
+
+**Authors:** Xinyu Liu, Zixuan Xie, Amir Moeini, Claire Chen, Shuze Daniel Liu, Yu Meng, Aidong Zhang, Shangtong Zhang
 
 Official repository for the paper **"MathlibLemma: Folklore Lemma Generation and Benchmark for Formal Mathematics"**.
 
@@ -57,18 +60,18 @@ A key contribution of this project is the discovery of missing lemmas that have 
 
 Contributed by Sequential Intelligence Lab (SIL), University of Virginia.
 
-<!-- ## 📖 Citation
+## 📖 Citation
 
-If you find this repository useful, please cite our paper. (BibTeX will be updated once the public preprint link is available.)
+If you find this repository useful, please cite our paper. 
 
 ```bibtex
 @article{liu2026mathliblemma,
-  title   = {MathlibLemma: Folklore Lemma Generation and Benchmark for Formal Mathematics},
-  author  = {Liu, Xinyu and others},
-  journal = {arXiv preprint},
-  year    = {2026}
+      title={MathlibLemma: Folklore Lemma Generation and Benchmark for Formal Mathematics}, 
+      author={Xinyu Liu and Zixuan Xie and Amir Moeini and Claire Chen and Shuze Daniel Liu and Yu Meng and Aidong Zhang and Shangtong Zhang},
+      year={2026},
+      journal={arXiv preprint arXiv:2602.02561}
 }
-``` -->
+```
 
 ## 📄 License
 
