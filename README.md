@@ -53,7 +53,6 @@ A key contribution of this project is the discovery of missing lemmas that have 
 
 * [Mathlib4 PR #32167](https://github.com/leanprover-community/mathlib4/pull/32167)
   - Adds `Kernel.restrict_const`: restricting a constant kernel to a measurable set commutes with restricting the underlying measure.
-  <!-- - Statement: `(Kernel.const α μ).restrict hs = Kernel.const α (μ.restrict s)`. -->
 
 * [Mathlib4 PR #31985](https://github.com/leanprover-community/mathlib4/pull/31985)
   - Adds `centralMoment_congr_ae`: central moments agree for a.e.-equal random variables.
